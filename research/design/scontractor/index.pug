@@ -1,4 +1,37 @@
 link(rel="stylesheet" href="./styles.css")
 link(href="https://fonts.googleapis.com/css?family=Exo|Prompt|KoHo&dislpay=swap" rel="stylesheet")
 
-img(src="./diagrams/reviews.png")
+div.mainCont
+	div.bio
+		div.par
+			button.comp A Team Const
+			p Amet ipsa deleniti itaque facilis facere... 
+		
+	div.reviewsChart
+		div.cont
+			h2.reviews  Reviews
+			div.time
+				select
+					option This month
+
+		img(src="./diagrams/reviews.png")
+	div.reviewsChart
+		div.cont
+			h2.reviews Completed Jobs
+			div.time
+				select
+					option This month
+
+		img(src="./diagrams/completedProjects.png")
+	div.reviewsChart
+		div.cont
+			h2.reviews Size of Jobs
+			div.time
+				select
+					option This month
+
+		img.final(src="./diagrams/projectSize.png")
+	div.calCont
+		h2.schedule Scheduler
+		p.desc To schedule a time simply click on an available time slot and request an appointment at that time. The contractor will then review your request and make a decision accordingly.
+		img.cal(src="./Screenshot from 2019-05-21 00-18-41.png")

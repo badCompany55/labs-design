@@ -1,0 +1,38 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script><div id="chartContainer"><canvas id="myChart"></canvas></div><script>window.pngData = false
+var canvas = document.getElementById("myChart")
+var container = document.getElementById("chartContainer")
+function onComplete () {
+  window.pngData = canvas.toDataURL();
+}
+var config={
+	type: "polarArea",
+		data: {
+			labels: ["Very Large", "Large", "Medium", "Small"],
+				datasets: [
+					{
+						Label: "Size of Project",
+						backgroundColor: ['#000000', "#E4E4E4", "#8C20F8", '#FEBD17'],
+						data: [555000, 2450684, 416555, 711350]
+					}
+				]
+		},
+		options: {
+			title: {
+				display: true,
+					text: "Project disburment('based off of time and price')"
+			}
+		}
+}
+;
+config.options.animation = {duration: 0, onComplete: onComplete}
+if (config.options.width) {
+  canvas.style.width = config.options.width
+  container.style.width = config.options.width
+}
+if (config.options.height) {
+  canvas.style.height = config.options.height
+  container.style.height = config.options.height
+}
+
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, config)</script>

@@ -1,0 +1,41 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script><div id="chartContainer"><canvas id="myChart"></canvas></div><script>window.pngData = false
+var canvas = document.getElementById("myChart")
+var container = document.getElementById("chartContainer")
+function onComplete () {
+  window.pngData = canvas.toDataURL();
+}
+var config={  type: 'pie',
+  data: {
+    datasets: [{
+      fill: false,
+      backgroundColor: ['#000000', "#E4E4E4", "#8C20F8", '#FEBD17'],
+      data: [15,30,55,10],
+		}],
+			labels: ["Framing", "Sheetrock", "Painting", "Fence Repair"]
+  },
+  options: {
+    width:500,
+    height:500,
+    devicePixelRatio: 2,
+    legend: {
+			display: true,
+				labels: {
+					boxWidth: 20,
+					fontSize: 15
+				}
+    },
+  }
+};
+;
+config.options.animation = {duration: 0, onComplete: onComplete}
+if (config.options.width) {
+  canvas.style.width = config.options.width
+  container.style.width = config.options.width
+}
+if (config.options.height) {
+  canvas.style.height = config.options.height
+  container.style.height = config.options.height
+}
+
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, config)</script>
