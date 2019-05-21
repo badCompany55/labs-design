@@ -1,0 +1,42 @@
+html {
+  font-size: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.dCenter {
+  display: flex;
+  justify-content: center;
+}
+
+.borc {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightyellow;
+}
+
+.boru {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightblue;
+}
+
+.bor {
+  border: 1px solid black;
+  padding: 5px;
+  background-color: lightgray;
+}
+
+.tb {
+  border-collapse: collapse;
+}
+
+.key {
+  width: 187px;
+  padding-bottom: 15px;
+  border: 2px solid black;
+  margin-bottom: 15px;
+  text-align: center;
+}

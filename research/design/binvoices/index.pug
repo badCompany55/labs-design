@@ -1,0 +1,103 @@
+link(rel="stylesheet" href="./styles.css")
+link(href="https://fonts.googleapis.com/css?family=Exo|Prompt|KoHo&dislpay=swap" rel="stylesheet")
+
+
+div.cont
+	h1.title Invoices
+	button.create Create Invoice
+div.list(style={"padding-top": "30px"})
+	div.searchBar
+		div.dname(style={"margin-left": "0px"}) Status: 
+			select.type
+				option All
+
+		div.dname Date: 
+			select.type 
+				option All
+				option Security
+		div.dname
+			input(type="text" placeholder="Search Invoices")
+			img(src="../contractorsList/Screenshot from 2019-05-18 11-40-01.png")
+div.results
+	table.resTable
+		tr
+			th.thead Date
+			th.thead NO.
+			th.thead Client
+			th.thead Amount
+			th.thead Status
+			th.thead.right Action
+		tr
+			td.tboard 5/19/19
+			td.tboard 55
+			td.tboard Logan White
+			td.tboard $2165.00
+			td.tboard.draftStat Draft
+			td.tboard.right.action  Send Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 5/17/19
+			td.tboard 55
+			td.tboard Charles X.
+			td.tboard $1735.00
+			td.tboard.dueStat Due in 13 days
+			td.tboard.right.action  Mark as Paid | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 15 days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 17 days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 30 days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 90+ days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 90+ days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+		tr
+			td.tboard 4/13/19
+			td.tboard 17 
+			td.tboard Foo Bar
+			td.tboard $535.00
+			td.tboard.paidStat Paid 90+ days ago
+			td.tboard.right.action View Invoice | 
+				div
+					img.center(src="../cinvoices/Screenshot from 2019-05-20 06-35-41.png")
+
+

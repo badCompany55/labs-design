@@ -1,0 +1,45 @@
+.exo {
+  font-family: "Exo", sans-serif;
+}
+
+.kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.prompt {
+  font-family: "Prompt", sans-serif;
+}
+
+.koho {
+  font-family: "KoHo", sans-serif;
+  font-size: 1.2rem;
+  background-color: lightgreen;
+}
+
+.krub {
+  font-family: "Krub", sans-serif;
+  background-color: lightgreen;
+  font-size: 1.2rem;
+}
+
+.lib {
+  font-family: "Libre Franklin", sans-serif;
+}
+
+.mon {
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+.jos {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.over {
+  font-family: "Overpass", sans-serif;
+  background-color: lightgreen;
+  font-size: 1.2rem;
+}
+
+.rob {
+  font-family: "Roboto", sans-serif;
+}

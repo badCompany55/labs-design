@@ -1,0 +1,45 @@
+link(rel="stylesheet" href="./styles.css")
+link(href="https://fonts.googleapis.com/css?family=Exo|Prompt|KoHo")
+div.profileCont
+	form.profile
+		div.accountSett Account Setup
+		div.userInfo 
+			h2.personal Account Information
+			div.emailCont
+				label.email First Name: 
+				input#firstname(type="text")
+			div.emailCont
+				label.email Last Name: 
+				input#lastname(type="text")
+			div.emailcont
+				label.email Account Type:
+				select.drop 
+					option Contractor
+					option Client
+			div.divide
+				div
+		div.contactInfo 
+			h2.contact Contact Information
+			div.emailCont 
+				label.email Phone Number: 
+				input#phoneNumber(type="tel")
+			div.emailCont
+				label.email Email: 
+				input#email(type="email")
+			div.emailCont
+				label.email Address: 
+				input#addressOne(type="text")
+			div.emailCont
+				label.email 
+				input#addressTwo(type="text", placeholder="Address Line Two")
+			div.emailCont
+				label.email  
+				input#city(type="text", placeholder="City")
+			div.emailCont
+				label.email  
+				input#state(type="text", placeholder="State")
+			div.emailCont
+				label.email  
+				input#zip(type: "text", placeholder="Zip Code")
+			div.butt
+				button.submit Submit
