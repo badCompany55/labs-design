@@ -1,0 +1,112 @@
+.mainCont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.imgCont {
+  margin-left: 7px;
+  margin-top: 20px;
+  width: 48%;
+  box-shadow: 0 3px 20px 0 #e4e4e4;
+}
+
+.imgCont img {
+  width: 100%;
+  height: 350px;
+}
+.title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  font-family: "Exo", "sans-serif";
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.time {
+  height: 15px;
+  font-family: "Prompt", sans-serif;
+  border: 2px solid #8c20f8;
+  border-radius: 5px;
+  background-color: white;
+  padding: 5px;
+  font-size: 1rem;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+select {
+  border: none;
+  background-color: white;
+}
+
+.sub {
+  width: 100%;
+  margin-top: 0px;
+  padding-left: 20px;
+  font-family: "Prompt", sans-serif;
+  color: #555555;
+  font-size: 0.9rem;
+}
+
+.tbcont {
+  width: 100%;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.tb {
+  font-family: "Prompt", sans-serif;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.tbord {
+  border-top: 2px solid #e4e4e4;
+  padding-top: 10px;
+}
+.bio {
+  width: 100%;
+  margin-right: 25px;
+}
+
+.par {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 3px 20px 0 #e4e4e4;
+  border-left: 10px solid #8c20f8;
+  padding-left: 15px;
+  width: 100%;
+  font-family: "Prompt", sans-serif;
+  font-size: 1.4rem;
+}
+
+.comp {
+  margin-right: 10px;
+  font-family: "Prompt", sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #8c20f8;
+  background-color: white;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.viewCont {
+  display: flex;
+  justify-content: flex-end;
+  width: 70%;
+}
+
+.view {
+  border: 5px solid #555555;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 1.5rem;
+  padding: 5px;
+}
